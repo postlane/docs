@@ -52,7 +52,9 @@ Only `https://` URLs are accepted. `http://` and bare IP addresses are rejected.
 
 ## Code signing
 
-Postlane binaries are signed and notarized for macOS and signed for Windows. The Linux AppImage is GPG-signed. See [Code Signing](/code-signing) for verification instructions.
+The current release of Postlane is not yet code-signed. On macOS, Gatekeeper will show a security warning when you first open the app -- follow the [Unsigned app bypass](/installation#unsigned-app-bypass) steps in the Installation guide. On Windows, SmartScreen may show a warning; click **More info**, then **Run anyway** to proceed.
+
+Code signing is planned for a future release.
 
 ## Reporting a security issue
 

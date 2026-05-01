@@ -33,4 +33,3 @@ Postlane turns your development workflow into short and long-form content. Write
 
 - [Credentials](/credentials) -- how Postlane stores your API keys
 - [Security](/security) -- what data stays on your machine and what leaves it
-- [Code Signing](/code-signing) -- verify Postlane binaries on macOS, Windows, and Linux

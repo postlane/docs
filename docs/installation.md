@@ -43,14 +43,6 @@ xattr -cr /Applications/Postlane.app
 
 Then try opening Postlane again.
 
-### Install via Homebrew
-
-```bash
-brew install postlane/tap/postlane
-```
-
-Once installed, `brew upgrade postlane` keeps it up to date.
-
 ---
 
 ## Windows
@@ -61,21 +53,6 @@ Once installed, `brew upgrade postlane` keeps it up to date.
 2. Run the downloaded `.exe` installer
 3. If Windows SmartScreen shows a warning, click **More info**, then **Run anyway**
 4. Follow the installer prompts
-
-### Install via winget
-
-```bash
-winget install postlane.Postlane
-```
-
-winget is built into Windows 10 (20H1 and later) and Windows 11.
-
-### Install via Scoop
-
-```bash
-scoop bucket add postlane https://github.com/postlane/scoop-bucket
-scoop install postlane
-```
 
 ---
 
@@ -91,22 +68,6 @@ chmod +x Postlane_*.AppImage
 ```
 
 No install step needed. Move the file anywhere convenient.
-
-### Flatpak
-
-```bash
-flatpak install flathub dev.postlane.Postlane
-```
-
-Requires [Flatpak](https://flatpak.org/setup/) and the Flathub remote to be configured.
-
-### AUR (Arch-based)
-
-```bash
-yay -S postlane
-```
-
-Or use your preferred AUR helper.
 
 ---
 
