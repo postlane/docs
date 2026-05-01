@@ -26,7 +26,7 @@ The following never leaves your machine:
 
 When you approve and send a post, the post content is sent to your connected scheduling provider (Zernio, Buffer, Ayrshare, Publer, Outstand, or a webhook URL). Postlane passes the content and a scheduled time -- your social platform credentials never leave your scheduling provider's account.
 
-If you use the Postlane tracking snippet (`p.js`) on your site, page-view events are sent to Postlane's analytics backend when a visitor arrives via a Postlane post link. This data belongs to your account and is not shared. See [Analytics](/analytics/overview) for the full privacy model.
+If you use the Postlane tracking snippet (`p.js`) on your site, page-view events are sent to Postlane's analytics backend when a visitor arrives via a Postlane post link. This data belongs to your account and is not shared. See [Analytics](/analytics) for the full privacy model.
 
 ## What goes to Postlane's backend
 
