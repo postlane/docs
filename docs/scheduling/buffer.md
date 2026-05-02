@@ -10,7 +10,7 @@ title: Buffer
 Buffer is a social media scheduling tool. Postlane supports it for users who already have an existing Buffer account.
 
 :::info
-If you do not already have a Buffer account, [Zernio](/scheduling/zernio) is included in Postlane at no extra cost and requires no additional setup.
+If you do not already have a Buffer account, [Zernio](/scheduling/zernio) is the recommended alternative -- it supports more platforms and uses a stable, official API.
 :::
 
 :::caution

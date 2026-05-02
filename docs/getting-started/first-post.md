@@ -62,7 +62,7 @@ A workspace groups your repositories under one set of scheduling credentials and
 
 Postlane needs a scheduling provider to queue posts for a future time. If you want to send posts immediately, click **Set up later** and continue.
 
-To connect Zernio (recommended, included with Postlane):
+To connect Zernio (recommended -- supports X, LinkedIn, Bluesky, and more):
 
 1. Select **Zernio** from the provider list
 2. Enter your Zernio API key (find it at **zernio.io → Settings → API**)
