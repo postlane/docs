@@ -71,8 +71,6 @@ n8n supports webhooks and has integrations for most social platforms. However, n
 
 If you already run n8n self-hosted and want to use it, configure it the same way as Zapier or Make: create a webhook trigger, copy the URL, paste it into Postlane Settings, and map the `content` field to your social posting node.
 
-If you are interested in a hosted n8n option managed by Postlane, register interest at [postlane.dev/interest](https://postlane.dev/interest).
-
 ## 5. Per-repo override
 
 To use a different webhook URL for a specific repository:

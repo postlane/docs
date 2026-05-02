@@ -154,5 +154,5 @@ Refresh the Published tab. If the post still does not appear, check the Activity
 ## Next steps
 
 - [Scheduling providers](/scheduling) — connect providers and set up a fallback chain
-- [Analytics](/analytics/overview) — track traffic driven by your posts
+- [Analytics](/analytics) — track traffic driven by your posts
 - [Credentials](/credentials) — understand how Postlane stores your API keys

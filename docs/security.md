@@ -26,7 +26,7 @@ The following never leaves your machine:
 
 When you approve and send a post, the post content is sent to your connected scheduling provider (Zernio, Buffer, Ayrshare, Publer, Outstand, or a webhook URL). Postlane passes the content and a scheduled time -- your social platform credentials never leave your scheduling provider's account.
 
-If you use the Postlane tracking snippet (`p.js`) on your site, page-view events are sent to Postlane's analytics backend when a visitor arrives via a Postlane post link. This data belongs to your account and is not shared. See [Analytics](/analytics/overview) for the full privacy model.
+If you use the Postlane tracking snippet (`p.js`) on your site, page-view events are sent to Postlane's analytics backend when a visitor arrives via a Postlane post link. This data belongs to your account and is not shared. See [Analytics](/analytics) for the full privacy model.
 
 ## What goes to Postlane's backend
 
@@ -52,7 +52,9 @@ Only `https://` URLs are accepted. `http://` and bare IP addresses are rejected.
 
 ## Code signing
 
-Postlane binaries are signed and notarized for macOS and signed for Windows. The Linux AppImage is GPG-signed. See [Code Signing](/code-signing) for verification instructions.
+The current release of Postlane is not yet code-signed. On macOS, Gatekeeper will show a security warning when you first open the app -- follow the [Unsigned app bypass](/installation#unsigned-app-bypass) steps in the Installation guide. On Windows, SmartScreen may show a warning; click **More info**, then **Run anyway** to proceed.
+
+Code signing is planned for a future release.
 
 ## Reporting a security issue
 
