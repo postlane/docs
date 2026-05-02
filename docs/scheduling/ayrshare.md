@@ -10,7 +10,7 @@ title: Ayrshare
 Ayrshare is a social media API that supports LinkedIn, X, Instagram, Facebook, TikTok, YouTube, Pinterest, Reddit, and others. Postlane supports it for users who already have an Ayrshare account.
 
 :::info
-If you do not already have an Ayrshare account, [Zernio](/scheduling/zernio) is included in Postlane Pro at no extra cost.
+If you do not already have an Ayrshare account, [Zernio](/scheduling/zernio) is the recommended alternative and supports most of the same platforms.
 :::
 
 ## 1. What Postlane uses it for
