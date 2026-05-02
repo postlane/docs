@@ -5,7 +5,7 @@ title: Zernio
 
 # Zernio
 
-**Free tier:** Zernio is included with Postlane. No separate Zernio subscription or API key is needed for Pro users.
+**Free tier:** Zernio is included with all Postlane plans. No separate Zernio subscription or API key is needed.
 
 Zernio is the recommended scheduling provider for Postlane. It supports X, LinkedIn, Bluesky, Mastodon, Instagram, Facebook, and Pinterest.
 
@@ -31,7 +31,7 @@ If you connected profiles during the Postlane onboarding wizard, this step is al
 
 ## 4. Entering the API key (standalone accounts only)
 
-Pro users skip this step. If you have a standalone Zernio account:
+Skip this step if you are using the bundled Zernio allocation -- you do not need an API key. If you have a standalone Zernio account:
 
 1. In the Zernio dashboard, go to **Settings → API → API Key**
 2. Copy the key
