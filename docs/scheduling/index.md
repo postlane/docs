@@ -10,7 +10,9 @@ Postlane can queue posts through a scheduling provider so they go out at the rig
 
 ## How it works
 
-After you approve a post, Postlane hands it to your connected provider with a scheduled time. The provider delivers it to the social network. Postlane never holds social platform credentials -- it only passes the post content and time to the provider via their API.
+Approvals happen in the Postlane desktop app -- open the app, review the draft, and click Approve. After you approve, Postlane hands the post to your connected provider with a scheduled time. The provider delivers it to the social network. You can close the desktop app after approving; the provider's server handles delivery at the scheduled time.
+
+Postlane never holds social platform credentials -- it only passes the post content and time to the provider via their API.
 
 ## Providers
 
