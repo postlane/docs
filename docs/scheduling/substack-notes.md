@@ -71,12 +71,7 @@ This cookie expires when you sign out of Substack. If Substack Notes posts start
 
 ## 6. Per-repo override
 
-To use Substack Notes for only specific repositories:
-
-1. Go to **Settings → Repos** and click the repository name
-2. Click **Configure → Scheduler**
-3. Select **Substack Notes** and paste the cookie
-4. Click **Save**
+To use Substack Notes for only specific repositories, open the Postlane desktop app and go to **Settings → Repos → [repo name] → Configure → Scheduler**. See [Per-repo Scheduler](/scheduling/per-repo) for full details.
 
 ## 7. Troubleshooting
 

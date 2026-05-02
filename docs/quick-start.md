@@ -13,11 +13,11 @@ This guide walks through writing, previewing, and sending your first post from a
 - At least one repository is added to the app
 - The repo has been initialised with `npx @postlane/cli init` (or you have a `.postlane/` directory already)
 
-## 1. Open the Drafts view
+## 1. Create a draft
 
-Select a repository from the left sidebar. The **Drafts** tab shows posts that Postlane has generated from recent commits.
+Open your IDE in the repository and run `/draft-post`. Postlane reads your recent git context and generates a draft for each configured platform.
 
-If no drafts appear, make sure the repo has recent commits and the watcher is active (a dot in the repo row indicates it is watching for changes).
+Once the draft is written, switch to the Postlane desktop app. Select the repository from the left sidebar -- the new draft will appear in the **Drafts** tab. A dot in the repo row confirms the watcher is active and picked up the file.
 
 ## 2. Review a draft
 
@@ -35,7 +35,7 @@ From here you can:
 
 ## 3. Approve and send
 
-Click **Approve** to mark the post as ready. If you have a scheduling provider connected, you can queue it for a specific time. Otherwise, click **Send now**.
+Click **Approve** to mark the post as ready. If you have a scheduling provider connected, the post is handed to the provider with a scheduled time -- you can close the desktop app after approving; the provider's server handles delivery at the right time. If no provider is connected, click **Send now**.
 
 ## 4. Check Published
 

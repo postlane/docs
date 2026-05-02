@@ -11,8 +11,8 @@ Postlane turns your development workflow into short and long-form content. Write
 ## How it works
 
 1. Initialise a repo with `npx @postlane/cli init` and add it to the desktop app
-2. Postlane reads your git history and generates post drafts based on what changed
-3. Edit the draft, customise per platform, approve, and send -- or schedule via a connected provider
+2. Run `/draft-post` in your IDE -- Postlane reads your git context and drafts posts based on what changed
+3. Edit the draft, customise per platform, and approve in the desktop app -- or schedule for a later time via a connected provider
 
 ## What you can post to
 

@@ -15,7 +15,7 @@ Postlane sends post content and a scheduled time to Outstand's API. Outstand del
 
 ## 2. Pricing
 
-Your first 1,000 posts are free. After that, each post costs $0.01 -- $10 for the next 1,000. There is no monthly subscription. You pay only for what you send.
+Your first 1,000 posts are free -- plenty to get started. After that, each post costs $0.01 with no monthly minimum. You pay only for what you send, making Outstand a natural choice as a fallback provider once a free-tier primary hits its limit.
 
 See [outstand.io/pricing](https://outstand.io/pricing) for current pricing.
 
@@ -34,26 +34,11 @@ See [outstand.io/pricing](https://outstand.io/pricing) for current pricing.
 
 ## 5. Per-repo override
 
-To use a different Outstand account for a specific repository:
-
-1. Go to **Settings → Repos** and click the repository name
-2. Click **Configure → Scheduler**
-3. Select **Outstand** and enter the API key for that account
-4. Click **Save**
-
-Posts from this repository will use the repo-specific key. All other repositories continue to use the global default.
-
-Click **Use default** to remove the per-repo override.
+To use a different Outstand account for a specific repository, open the Postlane desktop app and go to **Settings → Repos → [repo name] → Configure → Scheduler**. See [Per-repo Scheduler](/scheduling/per-repo) for full details.
 
 ## 6. Using Outstand as a fallback
 
-To add Outstand to your fallback chain:
-
-1. Go to **Settings → Scheduler → Fallback order**
-2. Click **Add fallback** and select **Outstand**
-3. Enter the API key and drag it to the position you want
-
-See [Fallback Chain](/scheduling/fallback-chain) for details.
+To add Outstand to your fallback chain, open the Postlane desktop app and go to **Settings → Scheduler → Fallback order**. See [Fallback Chain](/scheduling/fallback-chain) for full details.
 
 ## 7. Troubleshooting
 
