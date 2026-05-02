@@ -5,7 +5,7 @@ title: Zernio
 
 # Zernio
 
-**Free tier:** Zernio is included with Postlane Pro. No separate Zernio subscription or API key is needed for Pro users.
+**Free tier:** Zernio is included with Postlane. No separate Zernio subscription or API key is needed for Pro users.
 
 Zernio is the recommended scheduling provider for Postlane. It supports X, LinkedIn, Bluesky, Mastodon, Instagram, Facebook, and Pinterest.
 
@@ -15,7 +15,7 @@ Postlane sends post content and a scheduled time to Zernio's API. Zernio deliver
 
 ## 2. Pricing
 
-Zernio is bundled with Postlane Pro. If you have a Postlane Pro account, your allocation is activated automatically when you sign in -- you do not need a separate Zernio account or billing relationship.
+Zernio is bundled with Postlane. If you have a Postlane account, your allocation is activated automatically when you sign in -- you do not need a separate Zernio account or billing relationship.
 
 If you want a standalone Zernio account, see [zernio.io](https://zernio.io) for current pricing.
 

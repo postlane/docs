@@ -11,7 +11,7 @@ This guide takes you from a fresh Postlane install to your first sent post. Ever
 ## What you need before starting
 
 - A macOS, Windows, or Linux machine
-- Node.js 18 or later installed (`node --version` to check)
+- Node.js 22 or later installed (`node --version` to check)
 - A Git repository with at least one commit
 
 If you do not have Node.js installed, download it from [nodejs.org](https://nodejs.org) and install the LTS release.
@@ -62,7 +62,7 @@ A workspace groups your repositories under one set of scheduling credentials and
 
 Postlane needs a scheduling provider to queue posts for a future time. If you want to send posts immediately, click **Set up later** and continue.
 
-To connect Zernio (recommended, included with Postlane Pro):
+To connect Zernio (recommended, included with Postlane):
 
 1. Select **Zernio** from the provider list
 2. Enter your Zernio API key (find it at **zernio.io → Settings → API**)

@@ -27,7 +27,11 @@ Click a draft to open the post editor. You will see:
 - Character counts and any platform-specific warnings
 - The source commit that generated it
 
-Edit the text directly in the editor. Changes are saved automatically.
+From here you can:
+
+- **Edit the text directly** -- click into any platform's text area and type. Changes save automatically.
+- **Customise per platform** -- each channel (LinkedIn, X, Bluesky, etc.) has its own version of the post. Adjust tone, length, and hashtags independently for each audience.
+- **Add or change images** -- attach an image from your machine, or search Unsplash and other royalty-free sources directly from the editor.
 
 ## 3. Approve and send
 

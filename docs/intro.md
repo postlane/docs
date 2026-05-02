@@ -10,17 +10,13 @@ Postlane turns your development workflow into short and long-form content. Write
 
 ## How it works
 
-1. Add a repo to the desktop app
-2. Postlane reads your git history and drafts posts based on what changed
-3. Edit, approve, and send -- or schedule via a connected provider
+1. Initialise a repo with `npx @postlane/cli init` and add it to the desktop app
+2. Postlane reads your git history and generates post drafts based on what changed
+3. Edit the draft, customise per platform, approve, and send -- or schedule via a connected provider
 
 ## What you can post to
 
-- LinkedIn
-- Bluesky
-- Mastodon
-- Substack Notes
-- X (via connected provider)
+LinkedIn, X, Bluesky, Mastodon, Instagram, Facebook, Pinterest, Substack Notes, and more. The full platform list depends on which [scheduling provider](/scheduling) you connect -- Zernio alone covers X, LinkedIn, Bluesky, Mastodon, Instagram, Facebook, and Pinterest.
 
 ## Where to start
 

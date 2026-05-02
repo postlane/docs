@@ -16,7 +16,7 @@ After you approve a post, Postlane hands it to your connected provider with a sc
 
 | Provider | Free tier | Best for |
 |----------|-----------|----------|
-| [Zernio](/scheduling/zernio) | Included in Postlane Pro | All users -- recommended starting point |
+| [Zernio](/scheduling/zernio) | Included in Postlane | All users -- recommended starting point |
 | [Publer](/scheduling/publer) | 10 posts/month | Teams already using Publer |
 | [Outstand](/scheduling/outstand) | 1,000 posts free | Pay-per-use after free tier |
 | [Buffer](/scheduling/buffer) | 10 posts across 3 channels | Existing Buffer users |
@@ -24,7 +24,7 @@ After you approve a post, Postlane hands it to your connected provider with a sc
 | [Substack Notes](/scheduling/substack-notes) | Free | Substack publishers (immediate only) |
 | [Webhook](/scheduling/webhook) | Depends on automation platform | Custom automation via Zapier or Make |
 
-If you are starting fresh, choose Zernio -- it is included with Postlane Pro and requires no separate account.
+If you are starting fresh, choose Zernio -- it is included with Postlane and requires no separate account.
 
 ## Connecting a provider
 
