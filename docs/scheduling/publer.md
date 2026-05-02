@@ -15,9 +15,9 @@ Postlane sends post content and a scheduled time to Publer's API. Publer deliver
 
 ## 2. Pricing
 
-Publer's free tier allows 10 posts per month. When you reach the limit, Publer returns a 403 error and Postlane will show: "You have reached Publer's 10 posts/month free tier limit." At that point you can upgrade your Publer plan or switch to a fallback provider for the rest of the month.
+Publer's free tier allows 10 posts per month. When you reach the limit, Publer returns a 403 error and Postlane will show: "You have reached Publer's 10 posts/month free tier limit." At that point you can upgrade your Publer plan or Postlane's [fallback chain](/scheduling/fallback-chain) will automatically try your next configured provider.
 
-Paid plans start at approximately $12/month. See [publer.io/pricing](https://publer.io/pricing) for current pricing.
+Paid plans start at approximately $12/month. See [publer.io/pricing](https://publer.io/pricing) for current pricing. A paid plan is recommended if you post daily or need guaranteed delivery.
 
 ## 3. Create an account and get your API key
 

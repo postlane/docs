@@ -15,9 +15,9 @@ Postlane sends post content and a scheduled time to Outstand's API. Outstand del
 
 ## 2. Pricing
 
-Your first 1,000 posts are free. After that, each post costs $0.01 -- $10 for the next 1,000. There is no monthly subscription. You pay only for what you send.
+Your first 1,000 posts are free -- plenty to get started. After that, each post costs $0.01 with no monthly minimum. You pay only for what you send.
 
-See [outstand.io/pricing](https://outstand.io/pricing) for current pricing.
+Outstand is a good choice as a primary or fallback provider: the pay-per-use model means you are never locked into a subscription, and the generous free tier means most low-volume users will not pay anything. See [outstand.io/pricing](https://outstand.io/pricing) for current pricing.
 
 ## 3. Create an account and get your API key
 

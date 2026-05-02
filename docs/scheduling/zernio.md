@@ -15,7 +15,9 @@ Postlane sends post content and a scheduled time to Zernio's API. Zernio deliver
 
 ## 2. Pricing
 
-You need your own Zernio account to use this provider. See [zernio.io](https://zernio.io) for current pricing.
+You need your own Zernio account to use this provider. Zernio offers a free tier -- see [zernio.io](https://zernio.io) for current plan details.
+
+For consistent posting, a paid Zernio plan removes rate limits and gives you reliable delivery. For low-volume use, Zernio's free tier combined with a [fallback chain](/scheduling/fallback-chain) can cover most needs.
 
 For teams managing multiple clients or projects, we recommend a separate Zernio account per project. Postlane's [per-repo scheduler](/scheduling/per-repo) lets you assign a different API key to each repository.
 
