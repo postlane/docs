@@ -15,9 +15,9 @@ Postlane sends post content and a scheduled time to Publer's API. Publer deliver
 
 ## 2. Pricing
 
-Publer's free tier allows 10 posts per month. When you reach the limit, Publer returns a 403 error and Postlane will show: "You have reached Publer's 10 posts/month free tier limit." At that point you can upgrade your Publer plan or switch to a fallback provider for the rest of the month.
+Publer's free tier allows 10 posts per month. When you reach the limit, Postlane's [fallback chain](/scheduling/fallback-chain) will automatically try your next configured provider -- so pairing Publer with another free-tier provider keeps posts flowing without upgrading.
 
-Paid plans start at approximately $12/month. See [publer.io/pricing](https://publer.io/pricing) for current pricing.
+Paid plans start at approximately $12/month and are recommended if you post daily. See [publer.io/pricing](https://publer.io/pricing) for current pricing.
 
 ## 3. Create an account and get your API key
 
@@ -34,26 +34,11 @@ Paid plans start at approximately $12/month. See [publer.io/pricing](https://pub
 
 ## 5. Per-repo override
 
-To use a different Publer account for a specific repository:
-
-1. Go to **Settings → Repos** and click the repository name
-2. Click **Configure → Scheduler**
-3. Select **Publer** and enter the API key for that account
-4. Click **Save**
-
-Posts from this repository will use the repo-specific key. All other repositories continue to use the key from the global default.
-
-Click **Use default** to remove the per-repo override and return to the global key.
+To use a different Publer account for a specific repository, open the Postlane desktop app and go to **Settings → Repos → [repo name] → Configure → Scheduler**. See [Per-repo Scheduler](/scheduling/per-repo) for full details.
 
 ## 6. Using Publer as a fallback
 
-To add Publer to your fallback chain:
-
-1. Go to **Settings → Scheduler → Fallback order**
-2. Click **Add fallback** and select **Publer**
-3. Enter the API key and drag it to the position in the chain you want
-
-If your primary provider fails or reaches its limit, Postlane tries Publer next. See [Fallback Chain](/scheduling/fallback-chain) for details.
+To add Publer to your fallback chain, open the Postlane desktop app and go to **Settings → Scheduler → Fallback order**. See [Fallback Chain](/scheduling/fallback-chain) for full details.
 
 ## 7. Troubleshooting
 

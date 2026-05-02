@@ -36,24 +36,11 @@ Buffer's free tier includes 10 scheduled posts across 3 channels. Paid plans sta
 
 ## 4. Per-repo override
 
-To use a different Buffer account for a specific repository:
-
-1. Go to **Settings → Repos** and click the repository name
-2. Click **Configure → Scheduler**
-3. Select **Buffer** and enter the access token for that account
-4. Click **Save**
-
-Click **Use default** to remove the override.
+To use a different Buffer account for a specific repository, open the Postlane desktop app and go to **Settings → Repos → [repo name] → Configure → Scheduler**. See [Per-repo Scheduler](/scheduling/per-repo) for full details.
 
 ## 5. Using Buffer as a fallback
 
-To add Buffer to your fallback chain:
-
-1. Go to **Settings → Scheduler → Fallback order**
-2. Click **Add fallback** and select **Buffer**
-3. Enter the access token and drag it to the position you want
-
-See [Fallback Chain](/scheduling/fallback-chain) for details.
+To add Buffer to your fallback chain, open the Postlane desktop app and go to **Settings → Scheduler → Fallback order**. See [Fallback Chain](/scheduling/fallback-chain) for full details.
 
 ## 6. Troubleshooting
 

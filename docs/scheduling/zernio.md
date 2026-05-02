@@ -15,7 +15,7 @@ Postlane sends post content and a scheduled time to Zernio's API. Zernio deliver
 
 ## 2. Pricing
 
-You need your own Zernio account to use this provider. See [zernio.io](https://zernio.io) for current pricing.
+You need your own Zernio account. Zernio offers a free tier -- see [zernio.io](https://zernio.io) for current plan details. For consistent posting, a paid plan removes rate limits and ensures reliable delivery.
 
 For teams managing multiple clients or projects, we recommend a separate Zernio account per project. Postlane's [per-repo scheduler](/scheduling/per-repo) lets you assign a different API key to each repository.
 
@@ -37,24 +37,11 @@ If you connected profiles during the Postlane onboarding wizard, this step is al
 
 ## 5. Per-repo override
 
-To use a different Zernio account for a specific repository:
-
-1. Go to **Settings → Repos** and click the repository name
-2. Click **Configure → Scheduler**
-3. Select **Zernio** and enter the API key for that account
-4. Click **Save**
-
-Click **Use default** to remove the override and return to the workspace key.
+To use a different Zernio account for a specific repository, open the Postlane desktop app and go to **Settings → Repos → [repo name] → Configure → Scheduler**. See [Per-repo Scheduler](/scheduling/per-repo) for full details.
 
 ## 6. Using Zernio as a fallback
 
-To add Zernio to your fallback chain:
-
-1. Go to **Settings → Scheduler → Fallback order**
-2. Click **Add fallback** and select **Zernio**
-3. Enter the API key and drag it to the position you want
-
-See [Fallback Chain](/scheduling/fallback-chain) for details.
+To add Zernio to your fallback chain, open the Postlane desktop app and go to **Settings → Scheduler → Fallback order**. See [Fallback Chain](/scheduling/fallback-chain) for full details.
 
 ## 7. Supported platforms
 

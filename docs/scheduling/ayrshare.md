@@ -35,24 +35,11 @@ Ayrshare has no free tier. Plans start at $29/month. See [ayrshare.com/pricing](
 
 ## 5. Per-repo override
 
-To use a different Ayrshare account for a specific repository:
-
-1. Go to **Settings → Repos** and click the repository name
-2. Click **Configure → Scheduler**
-3. Select **Ayrshare** and enter the API key for that account
-4. Click **Save**
-
-Click **Use default** to remove the override.
+To use a different Ayrshare account for a specific repository, open the Postlane desktop app and go to **Settings → Repos → [repo name] → Configure → Scheduler**. See [Per-repo Scheduler](/scheduling/per-repo) for full details.
 
 ## 6. Using Ayrshare as a fallback
 
-To add Ayrshare to your fallback chain:
-
-1. Go to **Settings → Scheduler → Fallback order**
-2. Click **Add fallback** and select **Ayrshare**
-3. Enter the API key and drag it to the position you want
-
-See [Fallback Chain](/scheduling/fallback-chain) for details.
+To add Ayrshare to your fallback chain, open the Postlane desktop app and go to **Settings → Scheduler → Fallback order**. See [Fallback Chain](/scheduling/fallback-chain) for full details.
 
 ## 7. Supported platforms
 
