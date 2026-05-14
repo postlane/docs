@@ -60,7 +60,10 @@ Uninstalling removes GitHub's access grant. Existing drafts in your queue are no
 This means the deep link from `postlane.dev/github/installed` did not reach the desktop app. Try:
 
 1. Check that the Postlane desktop app is open and in the foreground
-2. Click the **Install GitHub App** button again — if the app is already installed, GitHub takes you to the configuration page, and the deep link fires again on save
+2. When your browser asked "Do you want to allow this website to open Postlane?", click **Allow** (or **Always Allow**)
+3. If you dismissed that prompt, go to **System Settings → Privacy and Security → Open Login Items** and look for Postlane, or simply uninstall the GitHub App and reinstall it from the wizard to trigger the prompt again
+
+Note: the redirect only fires on **initial installation**. Re-configuring an existing installation (adding or removing repos) does not trigger the deep link and the wizard will not advance — that is expected.
 
 **No drafts are appearing after a push**
 
