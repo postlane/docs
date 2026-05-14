@@ -1,0 +1,8 @@
+{
+  "label": "Connecting Repos",
+  "position": 3,
+  "link": {
+    "type": "doc",
+    "id": "repo-connection/index"
+  }
+}
