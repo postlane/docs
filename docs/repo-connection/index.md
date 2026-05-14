@@ -22,7 +22,7 @@ The GitHub App monitors your repos directly on GitHub via webhooks. When anyone 
 
 **How it works:** You install the Postlane GitHub App on your GitHub org and select which repos to include. GitHub sends a webhook to Postlane's server on every push. The desktop app polls for new events and adds them to your draft queue.
 
-[Set up the GitHub App →](./github-app)
+[Set up the GitHub App →](/repo-connection/github-app)
 
 ---
 
