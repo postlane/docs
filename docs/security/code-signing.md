@@ -143,7 +143,7 @@ Linux builds are signed two ways:
 
 ### GPG public key
 
-The releases key is published at [postlane.dev/pgp](/pgp).
+The releases key is published at [postlane.dev/pgp](https://postlane.dev/pgp).
 
 Key UID: `releases@postlane.dev`
 
