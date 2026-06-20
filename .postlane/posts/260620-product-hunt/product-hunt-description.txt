@@ -1,0 +1,1 @@
+For developers who ship but don't post. Postlane reads your git commits and drafts posts for LinkedIn, X, Bluesky, Mastodon, and more — directly from your IDE. Credentials stay in your local keyring and never reach Postlane's servers.

@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "status": "draft",
+  "platforms": ["x", "bluesky", "mastodon"],
+  "trigger": "docs: add direct channels — Mastodon connect without a scheduling provider (748cae2)",
+  "angle": "Credentials stay on your machine",
+  "variant": null,
+  "utm_campaign": null,
+  "author": null
+}
