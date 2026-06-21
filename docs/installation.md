@@ -24,24 +24,9 @@ Check your Node.js version by running `node --version` in a terminal. If you nee
 3. Drag the Postlane icon into your Applications folder
 4. Open Postlane from your Applications folder or Spotlight
 
-### Unsigned app bypass
+### First-launch dialog
 
-If you see "Postlane can't be opened because Apple cannot check it for malicious software":
-
-1. Open **System Settings** (macOS 13 and later) or **System Preferences** (macOS 12)
-2. Go to **Privacy & Security**
-3. Scroll down to the Security section and click **Open Anyway** next to the Postlane message
-4. Click **Open** in the confirmation dialog that appears
-
-### "App is damaged and can't be opened"
-
-If you see this message, the quarantine flag needs to be cleared. Open Terminal and run:
-
-```bash
-xattr -cr /Applications/Postlane.app
-```
-
-Then try opening Postlane again.
+On first open, macOS may show: "Postlane is an app downloaded from the internet. Are you sure you want to open it?" Click **Open**. This is a standard one-time prompt for any newly downloaded app; Postlane is notarised by Apple so no further steps are needed.
 
 ---
 
